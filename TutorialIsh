@@ -1,0 +1,113 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TerraIsHotAndSexy/ApeCum/main/menus"))()
+
+local gui = Library:create{
+    Theme = Library.Themes.Dark
+}
+
+local aimtab = gui:tab{
+    Name = "Aimbot"
+}
+
+
+aimtab:button({
+    Name = "show prompt",
+    Callback = function()
+        aimtab:prompt{
+            Title = "baby",
+            Text = "shark doo doo doo doo im blank lmao",
+            Buttons = {
+                Ok = function()
+                    aimtab:prompt{
+                        Followup = true,
+                        Title = "really?",
+                        Text = "you sure?=",
+                        Buttons = {
+                            Yes = function()
+                                aimtab:prompt{
+                                    Followup = true,
+                                    Title = "xd",
+                                    Text = "sus",
+                                    Buttons = {
+                                        balls = function()
+                                            gui:set_status("github")
+                                        end,
+                                        anal = function()
+                                            gui:set_Status("money")
+                                        end
+                                    }
+                                }
+                            end,
+                        }
+                    }
+                end,
+            }
+        }
+    end,
+})
+aimtab:keybind({Callback = function()
+    gui:prompt()
+end,})
+aimtab:dropdown({
+    Name = "Dropdown",
+    Description = "yeeeeeeeeeeeeeeeeeeeboi",
+    StartingText = "Bodypart",
+    Items = {
+        "Head",
+        "Torso",
+        "Random"
+    },
+    Callback = function(v)
+        print(v, "clicked")
+    end,
+})
+aimtab:dropdown({
+    Name = "yes",
+    StartingText = "Number",
+    Items = {
+        {"One", 1},
+        {"Two", 2},
+        {"Three", 3}
+    },
+    Description = "amongu s",
+    Callback = function(v)
+        print(v, "clicked")
+    end,
+})
+local cum = aimtab:slider({Callback = function(v)
+    gui:set_status(v)
+end})
+
+aimtab:textbox({Callback = function(v)
+    gui:prompt{Text = v}
+end,})
+
+aimtab:color_picker({
+    Name = "your mom's color",
+    Style = Library.ColorPickerStyles.Legacy,
+    Description = "Click to adjust color...",
+    Callback = function(color)
+        print(color)
+    end,
+})
+
+
+local AntiAimTab = gui:tab{
+    Name = "Anti-Aim"
+}
+
+local Player = gui:tab{
+    Name = "Player"
+}
+
+local Visuals = gui:tab{
+    Name = "Visuals"
+}
+
+local Misc = gui:tab{
+    Name = "Misc"
+}
+
+
+
+
+-- In the aimbot: places U'll find how to make buttons and shit
