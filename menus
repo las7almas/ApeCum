@@ -925,8 +925,6 @@ function Library:create(options)
 	creditsTab:credit{Name = "Luffy", Description = "Whitelist", Discord = "Luffy", V3rmillion = "None"}
 	creditsTab:credit{Name = "Boa Hancock", Description = "Luffy's GF", Discord = "Boa Hancock", V3rmillion = "None"}
 	creditsTab:credit{Name = "Zoro", Description = "Owner", Discord = "Zoro", V3rmillion = "None"}
-	creditsTab:credit{Name = "Abstract", Description = "UI Library Developer", Discord = "Abstract#8007", V3rmillion = "AbstractPoo"}
-	creditsTab:credit{Name = "Deity", Description = "UI Library Developer", Discord = "Deity#0228", V3rmillion = "0xDEITY"}
 
 	return mt
 end
