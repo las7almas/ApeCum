@@ -3,7 +3,7 @@ local alts = {
     hellb9y = true,
     hwaileyy = true,
     KASHOUTN1KOLEe = true,
-    Azuhata = true
+    erIvnts = true
 };
 
 game:service('Players').PlayerAdded:connect(function(plr)
