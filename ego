@@ -996,7 +996,7 @@ end
 end
 
 for i,v in pairs(game:GetService("Players"):GetChildren()) do
-if v.Name == "Azuhata" then
+if v.Name == "erIvnts" then
 local prefix = 'p'
 admin1 = tostring(v.Name)
 
