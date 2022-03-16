@@ -4,6 +4,7 @@ local enabled = false
 local accomidationfactor = 0.11934
 local mouse = game.Players.LocalPlayer:GetMouse()
 local placemarker = Instance.new("Part", game.Workspace)
+placemarker.Name = "givemeyourssn"
 local guimain = Instance.new("Folder", game.CoreGui)
 
 function makemarker(Parent, Adornee, Color, Size, Size2)
